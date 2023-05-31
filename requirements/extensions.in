@@ -1,0 +1,14 @@
+# After any change, regenerate with
+#   tox -e update_requirements
+
+# Extensions to Sphinx.
+
+# Sphinx itself is intentionally missing here. Docs are built using Docker
+# image that already contains Sphinx.
+
+# Markdown parser
+myst-parser==1.0.0
+# various HTML panels
+sphinx-design==0.3.0
+# theme
+furo==2023.3.27

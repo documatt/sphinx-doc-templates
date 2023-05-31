@@ -1,0 +1,5 @@
+# After any change, regenerate with
+#   tox -e update_requirements
+
+# Sphinx for local build only
+sphinx==5.3.0

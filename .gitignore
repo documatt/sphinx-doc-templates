@@ -1,0 +1,8 @@
+# Python virtual environment
+venv
+# IDEs
+.vscode
+# Sphinx output path
+build
+.tox
+node_modules

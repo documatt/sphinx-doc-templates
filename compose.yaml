@@ -1,0 +1,6 @@
+services:
+  docs:
+    build: .
+    image: sample-org/docs
+    volumes:
+      - ".:/docs"
